@@ -13,11 +13,15 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
-
+fn calculate_price_of_apples(amount: usize) -> usize {
+    if amount > 40 {
+        amount
+    } else {
+        amount * 2
+    }
+}
 // Don't modify this function!
 #[test]
 fn verify_test() {
